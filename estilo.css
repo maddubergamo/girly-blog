@@ -11,10 +11,11 @@ body {
     background-color: #ffb3c6;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    display: flex;
 }
 
 a{
-    color: #fb6f92;
+    color: #ec6e90;
     text-align: none;
 }
 
@@ -35,5 +36,40 @@ a:hover {
     cursor: pointer;
     height: 16px;
     width: 100%;
-    margin-top: -150px;
+    margin-top: 550px;
+}
+body.inicio{
+    background-image: url(imagens/inicio.png);
+    background-size: cover;
+    margin: 150px;
+}
+body.index{
+    background-image: url(imagens/rosa.png);
+    background-size: cover;
+    margin: 150px;
+}
+body.projetos{
+    background-image: url(imagens/projetos.png);
+    background-size: cover; 
+    margin: 150px;
+}
+body.galeria{
+    background-image: url(imagens/galeria.png);
+    background-size: cover; 
+    margin: 150px;
+}
+body.biografia{
+    background-image: url(imagens/biografia.png);
+    background-size: cover; 
+    margin: 150px;
+}
+.esquerda{
+    margin-left: 500px;
+}
+.direita{
+    margin-right: 100px;
+}
+.meio{
+    margin-left: 100px;
+    margin-right: 100px;
 }
